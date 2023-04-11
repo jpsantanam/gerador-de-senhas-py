@@ -14,9 +14,9 @@ senhaVetor = []
 for letra in range(0, numeroLetras):
     senhaVetor.append(random.choice(letras))
 for simbolo in range(0, numeroSimbolos):
-    senhaVetor.append(random.choice(numeros))
-for numero in range(0, numeroNumeros):
     senhaVetor.append(random.choice(simbolos))
+for numero in range(0, numeroNumeros):
+    senhaVetor.append(random.choice(numeros))
 
 random.shuffle(senhaVetor)
 senhaFinal = "".join(senhaVetor)
